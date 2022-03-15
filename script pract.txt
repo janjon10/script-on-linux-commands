@@ -1,0 +1,22 @@
+echo
+echo " Your current directory"
+pwd
+sleep 2
+echo
+echo "intallation of net-tools, please relax with a cup of coffee while it run lol...."
+echo
+sleep 1
+yum -y install net-tools
+echo
+echo " It shows the list content in your current directory"
+echo 
+sleep 2
+ls
+echo
+echo "shows the momory of the computer" 
+free -m
+echo
+echo "name of the current user on this server"
+echo
+sleep 1
+whoami
